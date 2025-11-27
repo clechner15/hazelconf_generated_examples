@@ -30,7 +30,7 @@ class Config:
         pass
 
     showExtraHeader: ClassVar[bool] = True
-    rowsPerPage: ClassVar[int] = 6
+    rowsPerPage: ClassVar[int] = 8
     userMenuVisible: ClassVar[bool] = False
     showBlackFridayBanner: ClassVar[bool] = True
     admin: ClassVar[class] = Admin()
