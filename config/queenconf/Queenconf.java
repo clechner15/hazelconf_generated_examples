@@ -17,8 +17,8 @@ public class Queenconf {
 
         public final Laywer laywer = new Laywer();
 
-          public final boolean showExtraHeader = true; // show extra header
-          public final int rowsPerPage = 6; // how many rows per page are shown
+          public final boolean showExtraHeader = false; // show extra header
+          public final int rowsPerPage = 3; // how many rows per page are shown
           public final boolean userMenuVisible = false; // the user menu should be shown or hidden
           public final boolean showBlackFridayBanner = true; // show black friday banner
     }

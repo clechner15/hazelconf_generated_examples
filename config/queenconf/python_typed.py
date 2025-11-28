@@ -29,8 +29,8 @@ class Config:
     def __init__(self):
         pass
 
-    showExtraHeader: ClassVar[bool] = True
-    rowsPerPage: ClassVar[int] = 6
+    showExtraHeader: ClassVar[bool] = False
+    rowsPerPage: ClassVar[int] = 3
     userMenuVisible: ClassVar[bool] = False
     showBlackFridayBanner: ClassVar[bool] = True
     admin: ClassVar[class] = Admin()
