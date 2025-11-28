@@ -21,6 +21,7 @@ public class Queenconf {
           public final int rowsPerPage = 3; // how many rows per page are shown
           public final boolean userMenuVisible = false; // the user menu should be shown or hidden
           public final boolean showBlackFridayBanner = true; // show black friday banner
+          public final boolean showSellingButton = true; // show selling button
     }
 
 }

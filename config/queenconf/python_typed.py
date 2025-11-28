@@ -35,4 +35,5 @@ class Config:
     showBlackFridayBanner: ClassVar[bool] = True
     admin: ClassVar[class] = Admin()
     laywer: ClassVar[class] = Laywer()
+    showSellingButton: ClassVar[bool] = True
 

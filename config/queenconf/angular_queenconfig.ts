@@ -30,6 +30,7 @@ class Config
     static readonly showBlackFridayBanner = true;
     static readonly admin = new Admin();
     static readonly laywer = new Laywer();
+    static readonly showSellingButton = true;
 };
 
 

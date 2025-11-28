@@ -4,5 +4,6 @@ const config = {
     "userMenuVisible": false,
     "showBlackFridayBanner": true,
     "admin": [{"adminPageIconName": "user"}],
-    "laywer": [{"codeOfConductContent": "Every participant has to....","extraPageTitle": "\"\""}]
+    "laywer": [{"codeOfConductContent": "Every participant has to....","extraPageTitle": "\"\""}],
+    "showSellingButton": true
 }; 
