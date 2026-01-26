@@ -1,6 +1,6 @@
 const config = {
-    "rowsPerPage": 4,
-    "showBlackFridayBanner": false,
+    "rowsPerPage": 10,
+    "showBlackFridayBanner": true,
     "showExtraHeader": false,
-    "menu": [{"settingsIcon": "mechanics"}]
+    "menu": [{}]
 }; 
