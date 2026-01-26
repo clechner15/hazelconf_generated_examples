@@ -12,5 +12,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          source: "config/queenconf/constants.js"
+          source: "config/hazelconf/constants.js"
           target: ${{ secrets.TARGETFOLDER }}
