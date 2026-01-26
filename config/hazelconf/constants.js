@@ -1,5 +1,5 @@
 const config = {
-    "rowsPerPage": 7,
+    "rowsPerPage": 10,
     "showBlackFridayBanner": true,
     "showExtraHeader": false,
     "menu": [{}]

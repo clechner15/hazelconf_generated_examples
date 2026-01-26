@@ -22,7 +22,7 @@ class Config:
     def __init__(self):
         pass
 
-    rowsPerPage: ClassVar[int] = 7
+    rowsPerPage: ClassVar[int] = 10
     showBlackFridayBanner: ClassVar[bool] = True
     showExtraHeader: ClassVar[bool] = False
     menu: ClassVar[class] = Menu()
