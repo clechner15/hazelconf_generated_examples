@@ -13,13 +13,12 @@ export class Hazelconf {
 
 class Menu
 {
-    static readonly 'settingsIcon' = 'mechanics';
 };
 
 class Config
 {
-    static readonly rowsPerPage = 5;
-    static readonly showBlackFridayBanner = false;
+    static readonly rowsPerPage = 10;
+    static readonly showBlackFridayBanner = true;
     static readonly showExtraHeader = false;
     static readonly menu = new Menu();
 };
