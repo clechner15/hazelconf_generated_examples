@@ -11,26 +11,16 @@ export class Queenconfig {
  }
 
 
-class Admin
+class Menu
 {
-    static readonly adminPageIconName = 'user';
-};
-
-class Laywer
-{
-    static readonly codeOfConductContent = 'Every participant has to....';
-    static readonly extraPageTitle = '';
 };
 
 class Config
 {
-    static readonly showExtraHeader = false;
-    static readonly rowsPerPage = 3;
-    static readonly userMenuVisible = false;
+    static readonly rowsPerPage = 7;
     static readonly showBlackFridayBanner = true;
-    static readonly admin = new Admin();
-    static readonly laywer = new Laywer();
-    static readonly showSellingButton = true;
+    static readonly showExtraHeader = false;
+    static readonly menu = new Menu();
 };
 
 

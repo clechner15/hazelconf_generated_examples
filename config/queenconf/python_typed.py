@@ -14,26 +14,16 @@ class Queenconfig:
         self.config = Config()
 
 
-class Admin:
+class Menu:
     def __init__(self):
         pass
 
-    adminPageIconName: ClassVar[str] = 'user'
-class Laywer:
-    def __init__(self):
-        pass
-
-    codeOfConductContent: ClassVar[str] = 'Every participant has to....'
-    extraPageTitle: ClassVar[str] = '""'
 class Config:
     def __init__(self):
         pass
 
-    showExtraHeader: ClassVar[bool] = False
-    rowsPerPage: ClassVar[int] = 3
-    userMenuVisible: ClassVar[bool] = False
+    rowsPerPage: ClassVar[int] = 7
     showBlackFridayBanner: ClassVar[bool] = True
-    admin: ClassVar[class] = Admin()
-    laywer: ClassVar[class] = Laywer()
-    showSellingButton: ClassVar[bool] = True
+    showExtraHeader: ClassVar[bool] = False
+    menu: ClassVar[class] = Menu()
 
