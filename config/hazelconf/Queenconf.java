@@ -9,8 +9,8 @@ public class Queenconf {
 
         public final Menu menu = new Menu();
 
-          public final int rowsPerPage = 10; // How many rows of product are shown per page
-          public final boolean showBlackFridayBanner = true; // show banner for black friday or hide it
+          public final int rowsPerPage = 5; // How many rows of product are shown per page
+          public final boolean showBlackFridayBanner = false; // show banner for black friday or hide it
           public final boolean showExtraHeader = false; // show extra header or hide it
     }
 

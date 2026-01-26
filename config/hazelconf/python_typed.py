@@ -22,8 +22,8 @@ class Config:
     def __init__(self):
         pass
 
-    rowsPerPage: ClassVar[int] = 10
-    showBlackFridayBanner: ClassVar[bool] = True
+    rowsPerPage: ClassVar[int] = 5
+    showBlackFridayBanner: ClassVar[bool] = False
     showExtraHeader: ClassVar[bool] = False
     menu: ClassVar[class] = Menu()
 
