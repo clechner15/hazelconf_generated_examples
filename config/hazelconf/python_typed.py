@@ -23,7 +23,7 @@ class Config:
         pass
 
     rowsPerPage: ClassVar[int] = 7
-    showBlackFridayBanner: ClassVar[bool] = False
+    showBlackFridayBanner: ClassVar[bool] = True
     showExtraHeader: ClassVar[bool] = False
     menu: ClassVar[class] = Menu()
 
